@@ -1,9 +1,36 @@
-body{
-  color:white;
+* {
+  font-family: helvetica;
+  font-size: 22;
+  color: seashell;
   background-color: black;
+  opacity: 0.9;
+}
+
+/* --- header div --- */
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  /*position: fixed;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-top {
 
 }
 
-div{
-  border: 1px solid black;
+#nav-li{
+padding-left: 10px;
+
 }
+
+/* --- main div --- */
+
+
+
+/* --- footer div --- */
