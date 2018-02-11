@@ -20,6 +20,10 @@
   height: 50px;
 }
 
+#imglogo{
+  max-width: 264;
+}
+
 .nav-top {
 
 }
@@ -31,6 +35,8 @@ padding-left: 10px;
 
 /* --- main div --- */
 
-
+img{
+  width: 300px;
+}
 
 /* --- footer div --- */
