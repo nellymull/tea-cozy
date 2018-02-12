@@ -34,7 +34,7 @@ padding-left: 10px;
 }
 
 /* --- main div --- */
-  /*mission div*/
+  /*Our mission mission div*/
 
 .mission{
   background-image: url("../images/img-mission-background.jpg");
@@ -45,8 +45,19 @@ padding-left: 10px;
 
   }
 
+/*Tea of the month month div*/
+.month{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 1000px;
+}
 .images{
   width: 300px;
+}
+.teamonth{
+  align-self: flex-start;
 }
 
 .locations{
