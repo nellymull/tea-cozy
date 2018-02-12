@@ -34,6 +34,12 @@ padding-left: 10px;
 }
 
 /* --- main div --- */
+  /*mission div*/
+
+.mission{
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  }
 
 .images{
   width: 300px;
