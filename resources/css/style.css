@@ -20,7 +20,7 @@
   height: 50px;
 }
 
-#imglogo{
+.logo{
   max-width: 264;
 }
 
@@ -35,7 +35,7 @@ padding-left: 10px;
 
 /* --- main div --- */
 
-img{
+.images{
   width: 300px;
 }
 
