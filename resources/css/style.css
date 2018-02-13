@@ -34,7 +34,7 @@ padding-left: 10px;
 }
 
 /* --- main div --- */
-  /*Our mission mission div*/
+  /*-mission div- Our mission */
 
 .mission{
   background-image: url("../images/img-mission-background.jpg");
@@ -46,33 +46,51 @@ padding-left: 10px;
   width: 1200px;
   }
 
-  h2{
+  .ourMission{
     margin: 0;
+    padding-top: 5px;
   }
 
   h4{
     margin: 0;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-bottom: 10px;
   }
 
+
+  /* -month div- Tea of the month*/
+.month{
+
+}
+
+      /* -headMonth div is a div of month div*/
+.headMonth{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.teaMonth{
+}
+.stepping{
   }
 
-/*Tea of the month month div*/
-.month{
+     /* -contentMonth div is a div of month div*/
+.contentMonth{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
-  width: 1000px;
 }
-.images{
+p{
+  margin: 10px;
+}
+.imagesMonth{
   width: 300px;
-}
-.teamonth{
-  align-self: flex-start;
+  height: 200px;
+
 }
 
+
+   /*locations div*/
 .locations{
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
