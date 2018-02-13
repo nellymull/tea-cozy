@@ -6,6 +6,12 @@
   opacity: 0.9;
 }
 
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* --- header div --- */
 .header {
   height: 69px;
@@ -60,6 +66,9 @@ padding-left: 10px;
 
   /* -month div- Tea of the month*/
 .month{
+  width: 1000px;
+  align-self: center;
+
 
 }
 
