@@ -5,7 +5,11 @@
   color: seashell;
   background-color: black;
   text-align: center;
+}
 
+body{
+  display: flex;
+  justify-content: center;
 }
 
 .main{
