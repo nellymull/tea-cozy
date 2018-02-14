@@ -1,29 +1,39 @@
 * {
+  margin: 0;
   font-family: helvetica;
   font-size: 22;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
+  text-align: center;
+
 }
 
 .main{
+  padding-left: 10px
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  top: 69px;
+  z-index: 9;
 }
 
 /* --- header div --- */
 .header {
   height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
-  /*position: fixed;*/
+  margin: 0;
+  position: fixed;
   display: flex;
+  z-index: 10;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
   height: 50px;
+  padding: 10px;
 }
 
 .logo{
@@ -45,16 +55,19 @@ padding-left: 10px;
 .mission{
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  width: 1200px;
   }
 
   .ourMission{
+    background-color: black;
     margin: 0;
     padding-top: 5px;
+    align-self: center;
+    width: 1200px;
+
   }
 
   h4{
@@ -76,7 +89,6 @@ padding-left: 10px;
 .headMonth{
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 .teaMonth{
 }
@@ -94,11 +106,12 @@ padding-left: 10px;
 
 p{
   margin: 10px;
-  text-align: center;
 }
+
 .imagesMonth{
   width: 300px;
   height: 200px;
+  padding:10px;
 
 }
 
