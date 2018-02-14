@@ -34,6 +34,7 @@
 .logo {
   height: 50px;
   padding: 10px;
+  border-bottom: 1px solid seashell;
 }
 
 .logo{
@@ -64,7 +65,7 @@ padding-left: 10px;
   .ourMission{
     background-color: black;
     margin: 0;
-    padding-top: 5px;
+    padding-top: 1px;
     align-self: center;
     width: 1200px;
 
@@ -79,8 +80,10 @@ padding-left: 10px;
 
   /* -month div- Tea of the month*/
 .month{
-  width: 1000px;
-  align-self: center;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
 
 
 }
@@ -91,6 +94,7 @@ padding-left: 10px;
   flex-direction: column;
 }
 .teaMonth{
+  padding-top: 50px;
 }
 .stepping{
   }
@@ -102,6 +106,7 @@ padding-left: 10px;
   justify-content: center;
   align-items: flex-end;
   width: 1000px;
+  padding-left: 100px;
 }
 
 p{
