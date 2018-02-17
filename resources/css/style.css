@@ -126,20 +126,18 @@ p{
 .locations{
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  }
+}
+
 
 .headLocation{
   opacity: 0.50;
 }
 
 .contentLocation{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  max-width: 300px;
+  display: inline-block;
 }
+
+
 
 /* --- footer div --- */
