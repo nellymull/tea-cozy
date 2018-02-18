@@ -3,13 +3,14 @@
   font-family: helvetica;
   font-size: 22;
   color: seashell;
-  background-color: black;
   text-align: center;
 }
 
 body{
   display: flex;
   justify-content: center;
+  opacity: 0.9;
+  background-color: black;
 }
 
 .main{
@@ -30,6 +31,7 @@ body{
   z-index: 10;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
 }
 
 .logo {
@@ -76,6 +78,7 @@ padding-left: 10px;
     margin: 0;
     padding-top: 20px;
     padding-bottom: 10px;
+    background-color: black;
   }
 
 
@@ -126,16 +129,33 @@ p{
 .locations{
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
+
 }
 
 
 .headLocation{
-  opacity: 0.50;
+    opacity: 1;
+    margin-top: 65px;
+    margin-bottom: 15px;
+
+}
+
+.insideLocation{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
 }
 
 .contentLocation{
-  max-width: 300px;
-  display: inline-block;
+  opacity: 1;
+  margin: 0 20px;
+  height:300px;
+  width:300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
 }
 
 
