@@ -6,6 +6,7 @@
 }
 
 body{
+
   display: flex;
   justify-content: center;
   opacity: 0.9;
@@ -15,7 +16,7 @@ body{
 }
 
 .main{
-  padding-left: 10px
+  padding-left: 60px;
   position: relative;
   top: 69px;
   z-index: 9;
@@ -36,22 +37,20 @@ body{
 }
 
 .logo {
+  max-width: 264;
   height: 50px;
   padding: 10px;
   border-bottom: 1px solid seashell;
 }
 
-.logo{
-  max-width: 264;
-}
 
 .nav-top {
-
+  padding-right: 10px;
+  text-decoration: underline;
 }
 
 #nav-li{
-padding-left: 10px;
-
+  padding-left: 10px;
 }
 
 /* --- main div --- */
@@ -89,22 +88,14 @@ padding-left: 10px;
   display: flex;
   flex-direction: column;
   align-content: flex-end;
-
-
 }
 
-      /* -headMonth div is a div of month div*/
 .headMonth{
   display: flex;
   flex-direction: column;
-}
-.teaMonth{
   padding-top: 50px;
 }
-.stepping{
-  }
 
-     /* -contentMonth div is a div of month div*/
 .contentMonth{
   display: flex;
   flex-wrap: wrap;
@@ -113,8 +104,6 @@ padding-left: 10px;
   width: 1000px;
   padding-left: 100px;
 }
-
-
 
 .imagesMonth{
   width: 300px;
@@ -126,7 +115,6 @@ padding-left: 10px;
   margin-bottom: 10px;
 }
 
-
    /*locations div*/
 .locations{
   background-image: url("../images/img-locations-background.jpg");
@@ -134,7 +122,6 @@ padding-left: 10px;
   margin-top: 100px;
 
 }
-
 
 .headLocation{
     opacity: 1;
@@ -160,16 +147,16 @@ padding-left: 10px;
   background-color: black;
 }
 
-
-
 /* --- footer div --- */
 .footer{
   margin-top: 10px;
 }
+
 .footerContact{
   margin: 50px;
 }
 
 .footerCopyR{
   text-align: left;
+  margin-left: 20px;
 }
